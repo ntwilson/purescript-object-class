@@ -1,0 +1,22 @@
+{
+  "name": "purescript-object-class",
+  "version": "0.0.1",
+  "description": "OO-style classes",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "spago build --purs-args \"--stash --censor-lib --censor-codes=ShadowedName,ImplicitQualifiedImport,MissingTypeDeclaration,HidingImport\"",
+    "test": "spago test --purs-args \"--stash --censor-lib --censor-codes=ShadowedName,ImplicitQualifiedImport,MissingTypeDeclaration,HidingImport\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntwilson/purescript-object-class.git"
+  },
+  "author": "ntwilson@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ntwilson/purescript-object-class/issues"
+  },
+  "homepage": "https://github.com/ntwilson/purescript-object-class#readme"
+}
