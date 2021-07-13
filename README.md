@@ -11,7 +11,7 @@ It specifically aims to create:
 You should certainly prefer builtin row polymorphism with records and closed sum types to this library
 where possible, though there are times when runtime type checking and open sum types are necessary. 
 
-Consider the following simplified exapmle in some pseudo OO language:
+Consider the following simplified example in some pseudo OO language:
 ```TypeScript
 class Exception { 
   message : String
